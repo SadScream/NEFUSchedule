@@ -1,0 +1,20 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="font_entries">
+        <item>8 размер</item>
+        <item>9 размер</item>
+        <item>10 размер</item>
+        <item>11 размер</item>
+        <item>12 размер</item>
+        <item>13 размер</item>
+    </string-array>
+
+    <string-array name="font_values">
+        <item>8pt</item>
+        <item>9pt</item>
+        <item>10pt</item>
+        <item>11pt</item>
+        <item>12pt</item>
+        <item>13pt</item>
+    </string-array>
+</resources>

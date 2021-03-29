@@ -1,0 +1,48 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/group_header">
+
+        <EditTextPreference
+            app:key="group_name"
+            app:summary="@string/group_summary"
+            app:title="@string/group_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/font_header">
+
+        <ListPreference
+            android:entries="@array/font_entries"
+            android:entryValues="@array/font_values"
+            android:key="font_size_list"
+            android:title="@string/font_size_title"
+            android:summary="@string/font_size_summary"
+            />
+
+        <SwitchPreferenceCompat
+            app:key="bold_font"
+            app:defaultValue="true"
+            app:title="@string/bold_font_title"
+            app:summary="@string/bold_font_summary"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/addictive_header">
+        <SwitchPreferenceCompat
+            app:key="next_week_on_sunday"
+            app:defaultValue="false"
+            app:title="@string/next_week_on_sunday_title"
+            app:summary="@string/next_week_on_sunday_summary"
+            />
+
+        <SwitchPreferenceCompat
+            app:key="show_lecturer_names"
+            app:defaultValue="false"
+            app:title="@string/show_lecturer_name"
+            app:summary="@string/show_lecturer_name_summary"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>

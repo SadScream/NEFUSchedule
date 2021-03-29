@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">NEFU Schedule</string>
+    <string name="settings_btn">Настройки</string>
+    <string name="font_btn">Шрифт</string>
+    <string name="reload_btn">Обновить</string>
+    <string name="go_back_btn">Назад</string>
+
+<!--    headers-->
+    <string name="group_header">Группа</string>
+    <string name="font_header">Шрифт</string>
+    <string name="addictive_header">Дополнительно</string>
+
+<!--    group settings-->
+    <string name="group_title">Полное имя группы</string>
+    <string name="group_summary">Например: ИМИ&#8211;БА&#8211;ИВТ&#8211;19&#8211;1 или НТИ&#8211;Б&#8211;ПИ&#8211;20</string>
+
+<!--    font settings-->
+    <string name="font_size_title">Размер шрифта</string>
+    <string name="font_size_summary">По умолчанию 11 размер</string>
+
+    <string name="bold_font_title">Выделение</string>
+    <string name="bold_font_summary">Выделять жирным названия предметов</string>
+
+<!--    addictive settings-->
+    <string name="next_week_on_sunday_title">Обособить воскресенье</string>
+    <string name="next_week_on_sunday_summary">В воскресенье показывать расписание не следующую неделю</string>
+
+    <string name="show_lecturer_name">Имена преподавателей</string>
+    <string name="show_lecturer_name_summary">Показывать имена преподавателей</string>
+</resources>
