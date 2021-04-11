@@ -95,8 +95,9 @@ public class MainActivity extends AppCompatActivity {
         }
         else {
             if (day == 1) {
-                cal.add(Calendar.DATE, 7);
+                cal.add(Calendar.DATE, 1);
                 currentDate = cal.getTime();
+                day = 2;
             }
         }
 
