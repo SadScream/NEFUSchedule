@@ -1,5 +1,7 @@
 package com.sadscream.javanefuschedule;
 
+import android.util.Log;
+
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
@@ -108,10 +110,16 @@ public class Parser {
         result += head + "<br>День: " + dayName + "<br>";
 
         for (int i = 0; i < 6; i++) {
+            if (i == 5 && !dayTable.containsKey(daysArray[i])) {
+                // когда в субботу не учатся
+                break;
+            }
+
             result = result + "<br><p align='center'><b>" + daysArray[i] + "</b></p>"+line;
 
             for (int j = 0; j < 6; j++) {
                 result = result + "&nbsp;" + timeArray[j] + " ";
+
                 ArrayList<String> subjes = dayTable.get(daysArray[i]).get(timeArray[j]);
 
                 for (int k = 0; k < subjes.size(); k++) {
